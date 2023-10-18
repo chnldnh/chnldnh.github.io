@@ -6,19 +6,3 @@
   height: auto;
 }*/
 
-.image-container {
-    position: relative;
-    overflow: hidden;
-    width: 200px;
-    height:200px;
-}
-
-#images {
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s; /*Add a smooth transtion effect*/
-}
-
-.image-container:hover #images {
-    transform: scale(1.2); /*increase the scale to make it larger on hover*/
-}
